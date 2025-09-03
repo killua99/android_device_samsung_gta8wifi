@@ -1,9 +1,29 @@
 # Device-specific proprietary files - from Samsung package version X200XXS6DYG6, unless pinned
 
-# WiFi firmware (common)
-vendor/firmware/wlan/qca_cld/bdwlan.bin
-vendor/firmware/wlan/qca_cld/grippower.info
-vendor/firmware/wlan/qca_cld/regdb.bin
-
-# WiFi firmware (for SM-X200 model)
+# Broadcom Wi-Fi APEX
 vendor/apex/com.samsung.android.wifi.broadcom.signed.apex
+# Wi-Fi configuration files
+vendor/etc/wifi_board_config.ini
+vendor/etc/wcn/wifi_board_config.ini
+vendor/etc/wcn/wifi_board_config_aa.ini
+# Wi-Fi HAL libraries
+vendor/lib64/libwifi-hal.so
+vendor/lib64/liblowi_wifihal.so
+vendor/lib/libwifi-hal.so
+vendor/lib/liblowi_wifihal.so
+vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
+vendor/lib64/vendor.samsung.hardware.wifi@2.1.so
+vendor/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so
+vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so
+# Wi-Fi service binaries
+vendor/bin/hw/android.hardware.wifi@1.0-service
+vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
+# Wi-Fi service manifests
+vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
+vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi@2.0-service.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.wifi.hostapd.xml
+# Wi-Fi init scripts
+vendor/etc/init/android.hardware.wifi.supplicant-service.rc
+vendor/etc/init/android.hardware.wifi@1.0-service.rc
+vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
