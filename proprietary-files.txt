@@ -1,0 +1,9 @@
+# Device-specific proprietary files - from Samsung package version X200XXS6DYG6, unless pinned
+
+# WiFi firmware (common)
+vendor/firmware/wlan/qca_cld/bdwlan.bin
+vendor/firmware/wlan/qca_cld/grippower.info
+vendor/firmware/wlan/qca_cld/regdb.bin
+
+# WiFi firmware (for SM-X200 model)
+vendor/apex/com.samsung.android.wifi.broadcom.signed.apex
